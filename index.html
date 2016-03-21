@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TypeScript HTML App</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="styles/app.css" type="text/css" />
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-1">
+            <img class="logoImg" src="images/brush.png" />
+        </div>
+        <div class="col-md-11">
+            <h1>Famous Painters</h1>
+        </div>
+    </div>
+    <h3>Pick a painter from the list</h3>
+    <div>
+        <select id="RecipeCategory">
+            <option disabled>Painter Select</option>
+        </select>
+    </div>
+
+    <h3>Painter Image</h3>
+    <div id="recipeImage"></div>
+
+    <h3>Painter Style</h3>
+    <div id="recipeDesc"></div>
+
+    <h3>Painter Examples</h3>
+    <div class="foodGroups" id="FoodGroups"></div>
+
+    <script src="scripts/recipeLoader.js"></script>
+    <script src="scripts/renderer.js"></script>
+    <script src="scripts/baseRecipeCategory.js"></script>
+    <script src="scripts/recipeCategory.js"></script>
+    <script src="scripts/recipeCategories.js"></script>
+    <script src="scripts/foodGroup.js"></script>
+    <script src="scripts/initializer.js"></script>
+
+</body>
+</html>

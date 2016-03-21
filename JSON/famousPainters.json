@@ -1,0 +1,39 @@
+﻿{
+    "recipeCategories": [
+        {
+            "title": "Michelangelo",
+            "foodGroups": [ { "title": "David" }, { "title": "Sistine Chapel" }, { "title": "The Last Judgement" } ],
+            "details": "Renaissance",
+            "birthday": "",
+            "image": "<img src='images/mb.jpg'>"
+        },
+        {
+            "title": "Raphael",
+            "foodGroups": [ { "title": "School at Athens" }, { "title": "Lucretia" }, { "title": "Saint George and the Dragon" } ],
+            "details": "Renaissance",
+            "birthday": "",
+            "image": "<img src='images/raf.jpg'>"
+        },
+        {
+            "title": "Vincent van Gogh",
+            "foodGroups": [ { "title": "Self-portrait" }, { "title": "The Starry Night" }, { "title": "The Yellow House" } ],
+            "details": "Post-Impressionist",
+            "birthday": "",
+            "image": "<img src='images/vvg.jpg'>"
+        },
+        {
+            "title": "Claude Monet",
+            "foodGroups": [ { "title": "Morning on the Seine" }, { "title": "The Woman in the Green Dress" }, { "title": "Sunrise" } ],
+            "details": "Impressionist",
+            "birthday": "",
+            "image": "<img src='images/cm.jpg'>"
+        },
+        {
+            "title": "Johannes Vermeer",
+            "foodGroups": [ { "title": "The Milkmaid" }, { "title": "Girl with a Pearl Earring" }, { "title": "The Music Lesson" } ],
+            "details": "Baroque",
+            "birthday": "",
+            "image": "<img src='images/jv.jpg'>"
+        }
+    ]
+}
